@@ -24,11 +24,53 @@
             <label for="">Ingrese contrasena</label>
             <input type="password" name="password" id="password">
         </div>
+        <!--"Ingresamos la edad del estudiante -->
+        <div>
+            <label for="edad">Ingrese la edad del estudiante</label>
+            <input type="number" name="edad"" id="edad" maxlength="3"placeholder="ingrese su edad"requied">
+        </div>
+        <!--Ingresamos fecha de nacimiento-->
+        <div>
+            <label for="fecha">ingrese fecha de nacimiento </label>
+            <input type="date" name="fecha" id="fecha">
+        </div>
+        <!--select-->
+        <div>
+            <label for="color">ingrese el color</label>
+<select name="color" id="color">
+<option value="1">amarillo</option>
+<option value="rojo">rojo</option>
+<option value="verde">verde</option>
+</select>
+        </div>
+        
+        <!--Ingreso de una area de texto-->
+        <div>
+    <label for="comentario">Ingrese su comentario</label>
+    <textarea name="comentario" id="comentario" rows="15" cols="100"></textarea>
+    
+
+</div>
+<!--radio butons-->
+<div>
+    <label for="genero">selecione el genero</label>
+    
+    
+    <input type="radio" name="genero" id="masculino" value="masculino">
+    <label for="">maculino</label>
+    <input type="radio" name="genero" id="femenino" value="femenino">
+    <label for="">femenino</label>
+    <input type="radio" name="genero" id="otro" value="otro">
+    <label for="">otros</label>
+</div>
         <!--voy crear un  boton-->
         <div>
             <input type="submit" value="Enviar Formulario">
         </div>
-
+<!--voy a crear un boton-->
+<div>
+    <button type="reset">Cancelar informacion</button>
+</div>
     </form>
     <!--insertar una imagen-->
     <img src="../img/peakpx.jpg" alt="justin" width="200px" height="150">
