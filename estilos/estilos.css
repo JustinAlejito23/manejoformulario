@@ -1,0 +1,18 @@
+/*selector universal*/
+*{
+    margin:auto;
+    /*color: rgb(31, 34, 33);*/
+    /*background-image: url(../img/peakpx.jpg);
+    background-repeat: no-repeat;*/
+}
+/*estilos para el contenedor titulo*/
+.titulo-contenedor{
+    background:  rgb(67, 27, 27);
+    border: 10px solid #000;
+    /*border-radius: 100px;*/
+    width: 700px;
+    height: 50px;
+    padding: 100px 50px 20px 50px;
+    margin: 100px 20px 50px 20px;
+    box-shadow: 5px 5px 5px rgb(200, 50, 50);
+}
