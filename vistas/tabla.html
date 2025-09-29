@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../estilos/estilos.css">
     <title>tablas</title>
-<!-- <style>
+ <style>
      body{
         margin: auto;
         color: rgb(0,255,68);
-        background-color: rgb(139, 16, 16);
+        background-color: rgb(224, 219, 219);
      }
 
      /* Aqui va un comentario
@@ -21,19 +21,25 @@
      }
      /* utilizamos el elemento id*/
      #titulo{
-        color: blue;
+        color: rgb(240, 240, 245);
         text-align: center;
         font-size: 15px;
      }
-    </style>-->
+    </style>
 </head>
 <body>
     <div class="titulo-contenedor">
          <h1 id="titulo">tabla de posiciones campeonato ecuatoriano 2025</h1>
     </div>
+
+    <!--creo una caja-->
+    <div class="contenedor1">
+        <h2>2</h2>
+
+    </div>
    
     <div class="contenedor">
-        <table border="1px">
+        <table class="tabla">
             <thead>
 <tr>
     <th colspan="2"> Id Equipo</th>
@@ -75,15 +81,30 @@
                     <td>-47</td>
                     <td>13</td>
                 </tr>
-
+ <tr>
+                    <td rowspan="2">1</td>
+                    <td>Independiente SC</td>
+                    <td>18</td>
+                    <td>18</td>
+                    <td>20</td>
+                    <td rowspan="2">3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>-47</td>
+                    <td>13</td>
+                </tr>
             </tbody>
             <tfoot>
 
             </tfoot>
         </table>
     </div>
-    <div>
+    <div class="contenedor2">
         <a href="../index.html" style="background-color: yellow;">Ir a Index</a>
+    </div>
+    <div>
+        <a href="">Ir al SGA</a>
     </div>
 </body>
 </html>
